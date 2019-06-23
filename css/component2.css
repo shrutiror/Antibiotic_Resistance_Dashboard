@@ -17,6 +17,37 @@ body {
 	color: #fff;
 }
 
+.header__logo-box {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    text-align: left;
+    text-transform: capitalize;
+ }
+
+ .heading-primary {
+    color: #fff;
+    text-transform: capitalize;
+    backface-visibility: hidden;
+    margin-bottom: 3rem; }
+  .heading-primary--main {
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: 700;
+    animation-name: moveInLeft;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 200ms; }
+  .heading-primary--sub {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 400;
+    animation-name: moveInRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 200ms; }
+
+
 
 .component {
 	position: relative;
@@ -27,15 +58,16 @@ body {
 }
 
 .tinted-image{
-	height: 15em;
+	height: 17em;
 	width: 100%;
 
-	background: 
+	background-image: 
 	linear-gradient(
-		rgba(0, 255, 0, 0.45),
-		rgba(0, 255, 0, 0.45))
+		rgba(0, 255, 0, 0.4),
+		rgba(0, 255, 0, 0.4))
 	,
 	url('http://www.instatelecom.com/wp-content/uploads/2018/01/hospital-management-afghanisthan1.jpg');
+  
 }
 
 .component > h2 {
