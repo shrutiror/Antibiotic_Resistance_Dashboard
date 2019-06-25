@@ -468,10 +468,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.1rem;
-  transition: all 0.2s; }
-.heading-secondary:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: 0.5rem 0.5rem 5rem black; }
+
 
 
 

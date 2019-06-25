@@ -15,12 +15,17 @@
     text-align:left;
     font:normal 14px sans-serif;
 
-    background-color:#f4f8fa;
+    background-color:#e6eef2;
     border:1px solid #dbe3e7;
     box-shadow: 0 2px 3px #dbe3e7;
+    border-radius: 25px;
 
     width:260px;
     margin: 12px;
+}
+.user-profiles-list-small :hover {
+  background-color: #ccffcc;
+  color: white;
 }
 
 .user-profiles-list-small .user-avatar{
